@@ -3,6 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:women_safety/config/constants/Colors.dart';
 import 'package:women_safety/config/constants/Strings.dart';
+import 'package:women_safety/controllers/forgot_password_controller.dart';
+import 'package:women_safety/widgets/Custom_button.dart';
+import 'package:women_safety/widgets/Custom_input_field.dart';
 
 class ForgotPasswordScreen extends StatelessWidget {
   const ForgotPasswordScreen({super.key});

@@ -6,6 +6,8 @@ import 'package:women_safety/config/constants/Colors.dart';
 import 'package:women_safety/config/constants/Strings.dart';
 import 'package:women_safety/controllers/registration_screen_controller.dart';
 import 'package:women_safety/views/Auth/login_screen.dart';
+import 'package:women_safety/widgets/Custom_button.dart';
+import 'package:women_safety/widgets/Custom_input_field.dart';
 
 class RegistrationScreen extends StatefulWidget {
   const RegistrationScreen({super.key});

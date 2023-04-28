@@ -3,6 +3,11 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:women_safety/config/constants/Colors.dart';
+import 'package:women_safety/config/constants/Strings.dart';
+import 'package:women_safety/controllers/login_screen_controller.dart';
+import 'package:women_safety/views/Auth/registration_screen.dart';
+import 'package:women_safety/widgets/Custom_button.dart';
+import 'package:women_safety/widgets/Custom_input_field.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});

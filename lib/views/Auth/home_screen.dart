@@ -3,6 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:women_safety/views/Auth/login_screen.dart';
 import 'package:women_safety/views/Auth/registration_screen.dart';
+import 'package:women_safety/views/Auth/reset_password_screen.dart';
 
 
 
@@ -23,7 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
         if(_querySnapshot.docs.isEmpty) {
         return const RegistrationScreen();
         } else {
-          // return NavigationScreen(tabIndex: 1,);
+          return ResetPasswordScreen();
         }
       } else {
         return const LoginScreen();

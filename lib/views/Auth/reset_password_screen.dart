@@ -6,6 +6,8 @@ import 'package:women_safety/config/constants/Colors.dart';
 import 'package:women_safety/config/constants/Strings.dart';
 import 'package:women_safety/controllers/reset_password_controller.dart';
 import 'package:women_safety/views/Auth/registration_screen.dart';
+import 'package:women_safety/widgets/Custom_button.dart';
+import 'package:women_safety/widgets/Custom_input_field.dart';
 
 class ResetPasswordScreen extends StatefulWidget {
   const ResetPasswordScreen({super.key});
@@ -148,11 +150,11 @@ class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
                         color: Colors.white,
                       ),
                       press: () {
-                        showDialog(
-                            context: context,
-                            builder: (context) {
-                              // return const DialogboxWidget();
-                            });
+                        // showDialog(
+                        //     context: context,
+                        //     builder: (context) {
+                        //       // return const DialogboxWidget();
+                        //     });
                       },
                     ),
                   ),

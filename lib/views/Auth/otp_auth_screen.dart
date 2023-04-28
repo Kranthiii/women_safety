@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:women_safety/config/constants/Colors.dart';
+import 'package:women_safety/config/constants/Strings.dart';
+import 'package:women_safety/widgets/Custom_button.dart';
 // import 'package:pinput/pinput.dart';
 
 

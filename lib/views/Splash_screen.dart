@@ -6,6 +6,7 @@ import 'package:get/get.dart';
 import 'package:women_safety/config/constants/Colors.dart';
 import 'package:women_safety/config/constants/Strings.dart';
 import 'package:women_safety/controllers/Splash_screen_controller.dart';
+import 'package:women_safety/widgets/Custom_button.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
